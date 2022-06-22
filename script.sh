@@ -23,19 +23,22 @@ brew install yarn
 
 sleep 2
 
-echo "Testing download"
+echo "Please Copy the following text to your clipboard"
 
-echo "Homebrew"
-brew -v
-echo "Node"
-node -v 
-echo "NPM"
-npm -v
-echo "Yarn"
-yarn -v
+echo "<----START BELOW THIS LINE---->"
 
-echo "If you see versions, you have successfully installed Homebrew, Node, NPM, and Yarn"
+echo "echo Homebrew"
+echo "brew -v"
+echo " echo Node"
+echo "node -v" 
+echo "echo NPM"
+echo "npm -v"
+echo "echo Yarn"
+echo "yarn -v"
 
-sleep 1
+echo "<----END ABOVE THIS LINE---->"
 
-echo "COMPLETE"
+echo "Restart your terminal. If you see version numbers you have successfully installed."
+
+
+
